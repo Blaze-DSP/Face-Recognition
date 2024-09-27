@@ -50,7 +50,7 @@ This project combines the power of deep learning with traditional computer visio
 ## Installation
 1. **Clone Repository**
    ```
-   git clone [https://github.com/Blaze-DSP/Face-Recognition.git](https://github.com/Blaze-DSP/Face-Recognition.git)
+   git clone https://github.com/Blaze-DSP/Face-Recognition.git
    cd Face-Recognition
    ```
 2. **Install Dependencies**

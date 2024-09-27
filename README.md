@@ -18,6 +18,7 @@ This project combines the power of deep learning with traditional computer visio
 * **Matplotlib:** Visualization of loss curves and training progress.
 
 ## Project Structure
+```
 .
 ├── data/                   # Directory containing facial images
 │   ├── person1/
@@ -44,6 +45,7 @@ This project combines the power of deep learning with traditional computer visio
 │   └── generate_dataset.py       # Script to generate dataset from images
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
 
 ## Installation
 1. **Clone Repository**
@@ -65,10 +67,12 @@ The dataset containing facial images is provided as a data.zip file, which is up
    After downloading, extract the zip file into the dataset/ directory
 3. **Dataset Structure**
    The extracted dataset should be organized into subfolders where each subfolder corresponds to an individual's images:
+   ```
    data/
    ├── person1/
    ├── person2/
    └── ...
+   ```
    
 This dataset is used for training the Siamese network with Triplet Loss for facial recognition.
 

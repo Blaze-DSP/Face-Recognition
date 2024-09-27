@@ -43,6 +43,8 @@ This project combines the power of deep learning with traditional computer visio
 │   ├── Model.ipynb               # Jupyter Notebook for model
 │   ├── generate_database.py      # Script to generate database embeddings
 │   └── generate_dataset.py       # Script to generate dataset from images
+├── utils/
+│   ├── face_detection.xml       # Haar Cascades file for facial detection
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 ```

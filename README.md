@@ -77,8 +77,8 @@ The dataset containing facial images is provided as a data.zip file, which is up
 This dataset is used for training the Siamese network with Triplet Loss for facial recognition.
 
 ## Usage
-**Face Detection:** The system uses OpenCV to detect faces in images. Before training, the facial regions are extracted using Haar cascades.
-**Model Inference:** Once trained, the Siamese network can compare two images and output a similarity score to determine if the two faces belong to the same individual.
+* **Face Detection:** The system uses OpenCV to detect faces in images. Before training, the facial regions are extracted using Haar cascades.
+* **Model Inference:** Once trained, the Siamese network can compare two images and output a similarity score to determine if the two faces belong to the same individual.
 
 ## Future Enhancements
 * Add support for Triplet Loss for improved face verification accuracy.
